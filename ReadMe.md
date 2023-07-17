@@ -19,7 +19,7 @@ To run the project locally, follow these steps:
 
 1. Clone the repository: `git clone <repository_url>` OR Download from Drive(zip folder)
 2. Open the project in IDE.
-3. Build the project to resolve dependencies.(Maven Build)
+3. Build the project to resolve dependencies. (Maven Build)
 4. Ensure that the `pattern_calls.txt` input file is present in the classpath. Update the file with the desired pattern call data if needed.
 5. Run the `PatternManagementApplication` class.
 
@@ -39,18 +39,19 @@ The queries performed by the application are as follows:
 4. Skipped Pattern Calls: Retrieves all pattern calls that are marked as skipped.
 5. Not Skipped Pattern Calls: Retrieves all pattern calls that are not marked as skipped.
 
-The query results are written to the `pattern_calls_output.txt` file and for testing purpose on System Console.
+The query results are written to the `pattern_calls_output.txt` file and for testing purposes on System Console.
+Once the project is built and loaded, the output file will be at path  target->Classes->pattern_calls_output.txt
 
 ## Test Files
 
 The project includes unit tests written using the JUnit framework. The test file `PatternManagementApplicationTests.java` contains the following test cases:
 
-1. `testLoadPatternCallsFromFile`: Tests the successful loading of pattern call data from a valid file content.
+1. `testLoadPatternCallsFromFile`: Tests the successful loading of pattern call data from valid file content.
 2. `testGetPatternCallById`: Tests the retrieval of a pattern call by ID when the pattern call exists.
 3. `testGetPatternCallByIdReturnsNull`: Tests the retrieval of a pattern call by ID when the pattern call does not exist.
 4. `testGetPatternCallsByName`: Tests the retrieval of pattern calls by name when pattern calls with the specified name exist.
 5. `testGetPatternCallsByNameReturnsEmptyList`: Tests the retrieval of pattern calls by name when no pattern calls with the specified name exist.
-6. `testDumpQueriesToFile`: Tests the successful writing of queries to the output file.
+6. `testDumpQueriesToFile`: Tests the successful writing of queries to the output file. Test file->(pattern_calls_output_test.txt)
 
 
 ## Assumptions and Limitations
