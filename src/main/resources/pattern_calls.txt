@@ -1,0 +1,4 @@
+42, "myPattern", src/patterns/Functional.pat, false
+13, "anotherPattern", src/patterns/Another.pat, true
+99, "examplePattern", src/patterns/Example.pat, true
+27, "customPattern", src/patterns/Custom.pat, false

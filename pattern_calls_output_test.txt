@@ -1,0 +1,11 @@
+Queries:
+Pattern Call with ID 42: 
+null
+Pattern Calls with Name 'myPattern': 
+[]
+Pattern Calls with Path 'src/patterns/Functional.pat': 
+[]
+Skipped Pattern Calls: 
+[]
+Not Skipped Pattern Calls: 
+[PatternCall(id=1, name='Pattern 1', patternFile='file1.pat', called=true)]
